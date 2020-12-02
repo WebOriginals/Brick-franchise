@@ -1,0 +1,19 @@
+.sec-mission{
+  padding: 25% 0 120px 0;
+  color: $color2;
+  background: center center no-repeat;
+  background-size: cover;
+  p{
+    @include adaptiv-font(24, 18);
+    margin-bottom: 30px;
+    font-weight: 500;
+  }
+}
+.p-turquoise{
+  color: $color3;
+  @include adaptiv-font(36, 20);
+  font-weight: 600;
+}
+.mission-title{
+  margin-bottom: 50px;
+}

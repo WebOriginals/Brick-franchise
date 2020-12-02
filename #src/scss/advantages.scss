@@ -1,0 +1,46 @@
+.sec-advantages{
+  padding: 120px 0;
+}
+.advantages-row__right{
+
+  img{
+    width: 100%;
+  }
+}
+.advantages-row{
+  width: 100%;
+  display: flex;
+  &:not(:last-child){
+    margin-bottom: 120px;
+  }
+  &:nth-child(odd){
+    .advantages-row__left{
+      order: 2;
+    }
+    .advantages-row__right{
+      order: 1;
+    }
+  }
+}
+.advantages-title{
+  margin-bottom: 60px;
+}
+.advantages-row__text{
+  h2{
+    margin-bottom: 15px;
+    @include adaptiv-font(24, 18);
+    font-weight: 400;
+  }
+  span{
+    font-weight: bold;
+  }
+  li{
+    margin-bottom: 15px;
+    list-style: square;
+    color: $color3;
+    p{
+      color: $color1;
+      @include adaptiv-font(18, 18);
+    }
+  }
+}

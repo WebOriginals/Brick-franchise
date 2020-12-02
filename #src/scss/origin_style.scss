@@ -1,0 +1,178 @@
+//-----------ОСНОВНЫЕ ЦВЕТА------------------
+$color1: #0D2839;
+$color2: #fff;
+$color3: #0ebab9;
+$color4: #A6A6A6;
+$color5:#0D2839;
+
+//-----------Кнопка основная------------------
+
+.button {
+  background: $color3;
+  color: $color2;
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+  transition: .5s;
+  width: 220px;
+  @include adaptiv-font(14, 14);
+  font-weight: 700;
+  @include mq('tablet-990') {
+    width: 265px;
+  }
+
+  &:hover {
+    background: $color5;
+  }
+
+  &:active {
+    color: $color2;
+    background: $color3;
+    box-shadow: none;
+  }
+}
+
+
+//------------Заголовки и подзоголовки-----------------
+
+
+.title {
+  @include adaptiv-font(36, 24);
+  font-weight: 400;
+}
+.title-margin{
+  @include adaptiv-margin-bottom(65,50)
+}
+
+//*=============================================
+%flex {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+}
+
+%background {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body{
+  font-family: 'Alegreya Sans', sans-serif;
+  @include adaptiv-font(18, 14);
+  font-weight: 300;
+  min-height: 100vh;
+}
+//.sec-calculator{
+//  margin-bottom: 30px;
+//  @include mq('tablet-990') {
+//    margin-bottom: 50px;
+//  }
+//}
+.container-calculator{
+  width: 100%;
+  padding: 0 15px;
+  height: 100%;
+
+  @include mq('tablet-990') {
+    width: 990px;
+    margin: auto;
+  }
+  @include mq('desktop-wide') {
+    width: 1320px;
+    margin: auto;
+  }
+}
+
+.body-form-calculator{
+  position: relative;
+  display: block;
+  background: $color2;
+  @include mq('tablet-990') {
+    padding: 50px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+  }
+
+}
+.body-form-calculator-height{
+  @include mq('tablet-wide') {
+    height: 600px;
+  }
+
+  @include mq('desktop-wide') {
+    height: 700px;
+  }
+}
+
+.form-calculator{
+  height: 100% ;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-back{
+  @include adaptiv-margin-bottom(33, 25);
+  cursor: pointer;
+  position: relative;
+  display: block;
+}
+
+.form-calculator__bottom-section{
+  margin-top: auto;
+  display: flex;
+  @include maq('tablet-990') {
+    flex-direction: column;
+    .form-calculator__btn{
+      margin: 50px auto 0;
+      &:last-child{
+        margin: 10px auto 0;
+      }
+    }
+
+  }
+  @include mq('tablet-990') {
+    justify-content: space-between;
+
+    .form-calculator__desctipt {
+      width: 70%;
+    }
+    .form-calculator__btn{
+      align-self: flex-end;
+    }
+  }
+  @include maq('tablet-990') {
+    .form-calculator__desctipt {
+      text-align: center;
+    }
+  }
+}
+
+//=============================================
+
+
+//======БЛОКИ ПОКАЗЫНИ И СКРЫТЫ НА МОБИЛЕ======
+.MOBILE {
+  @media (min-width: 990px) {
+    display: none;
+  }
+}
+
+.DESCKTOP {
+  display: none;
+  @media (min-width: 991px) {
+    display: flex;
+
+  }
+}
+
+//*=============================================
+
+
+.NO-OUTLINE {
+  outline: none;
+}
+
+
+
+//*=============================================

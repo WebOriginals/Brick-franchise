@@ -1,0 +1,27 @@
+.sec-form-aleksandra{
+  padding: 222px 0;
+  color: $color2;
+  background: center left ;
+  background-size: cover;
+}
+.form-aleksandra-btn{
+  margin-left: auto;
+}
+.form-aleksandra-title{
+  margin-bottom: 30px;
+}
+.wrapper-form-aleksandra-inp{
+  margin-bottom: 30px;
+}
+.form-aleksandra-inp{
+  border-bottom: 1px solid $color2;
+  width: 100%;
+  padding: 10px 10px 10px 0;
+  background: none;
+  &::placeholder{
+    color: $color2;
+  }
+}
+.forma{
+  width: 100%;
+}

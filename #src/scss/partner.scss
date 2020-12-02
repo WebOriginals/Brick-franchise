@@ -1,0 +1,58 @@
+.sec-partner {
+  background: #F2F5F8 !important;
+  padding: 120px 0;
+  position: relative;
+
+}
+.partnerTitle{
+  z-index: 9 !important;
+}
+.u {
+  background-size: cover;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+.partnerForm {
+  z-index: 9 !important;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+
+.wrapper-partnerForm__input {
+  @include mq('desktop') {
+    width: 50%;
+    &:nth-child(odd) {
+      padding-right: 30px;
+    }
+  }
+
+  .partnerForm__input {
+    width: 100%;
+    background: none;
+    border-bottom: 1px solid $color1;
+    padding: 10px 10px 10px 0;
+    @include adaptiv-font(18, 14);
+  }
+}
+
+.pol {
+  width: 100%;
+  text-align: right;
+  color: #A6A6A6;
+  margin-top: 30px;
+  margin-bottom: 10px;
+
+  a {
+    text-decoration: underline;
+    color: #A6A6A6;
+  }
+}

@@ -1,0 +1,35 @@
+.sec-ready-made-brand{
+  color: $color2;
+  background: center center no-repeat;
+  background-size: cover;
+  padding: 25% 0 120px;
+}
+.wrapper-items{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.ready-made-brand-item{
+  border: 1px solid $color3;
+  padding: 45px 25px;
+  text-align: center;
+  background: rgba(13, 40, 57, 0.3);
+  flex: 0 0 270px;
+  transition: .5s;
+  &:hover{
+    background: $color3;
+    path{
+      fill:$color2;
+    }
+  }
+}
+.ready-made-brand__ic{
+  margin-bottom: 20px;
+}
+.ready-made-brand-title{
+  margin-bottom: 60px;
+}
+.ready-made-brand__text{
+  @include adaptiv-font(18, 18);
+  font-weight: 500;
+}

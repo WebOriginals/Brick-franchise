@@ -1,0 +1,38 @@
+.sec-company{
+  padding: 120px 0;
+}
+.company-title{
+  margin-bottom: 50px;
+}
+.company-content{
+  margin-top: 50px;
+}
+.company-column__bold{
+  @include adaptiv-font(64, 30);
+  font-weight: 500;
+  line-height: .8;
+}
+.company-column__text{
+  @include adaptiv-font(18, 16);
+  font-weight: 400;
+  align-self: center;
+  line-height: 1;
+  margin-left: 10px;
+}
+.company-column{
+  display: flex;
+  &:not(last-child){
+    margin-bottom: 35px;
+  }
+  &:nth-child(even){
+    align-self: center;
+  }
+}
+.company-column__vertical{
+  transform: rotate(-90deg);
+  align-self: center;
+}
+.company-content{
+  display: flex;
+  flex-direction: column;
+}

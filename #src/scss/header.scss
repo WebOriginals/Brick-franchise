@@ -1,0 +1,25 @@
+.body-header{
+  padding: 10px 15px;
+  @extend %flex;
+  justify-content: space-between;
+}
+.logo-header{
+  height: 57px;
+
+  align-self: center;
+  img{
+    height: 100%;
+  }
+}
+.wrapper-phone{
+  align-self: center;
+  a{
+    @include adaptiv-font(16,16);
+    font-weight: 500;
+    color: $color1;
+    text-decoration: none;
+  }
+}
+.wrapper-menu{
+  align-self: center;
+}

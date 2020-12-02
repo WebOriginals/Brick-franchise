@@ -1,0 +1,22 @@
+include ./../mixins
+
+section.sec-header
+    .body-header
+        .logo-header
+            img(src="img/header-logo-dark.svg")
+        .wrapper-menu
+            ul.menu
+                +li_menu('#','Стоимость')
+                +li_menu('#','Услуги')
+                +li_menu('#','Порядок работ')
+                +li_menu('#','Состав проекта')
+                +li_menu('#','Контакты')
+
+        .wrapper-gamburger.MOBILE
+            button.cmn-toggle-switch.cmn-toggle-switch__htx
+                span toggle menu
+
+        .wrapper-phone.DESCKTOP
+            a(href="tel:+7 918 5586497") +7 918 5586497
+
+
