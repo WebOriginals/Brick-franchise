@@ -1,0 +1,43 @@
+.sec-design {
+  padding: 60px 0;
+
+}
+
+.design-title {
+  margin-bottom: 60px;
+}
+
+.body-design {
+  display: flex;
+  width: 100%;
+}
+
+.design-item {
+  color: $color2;
+  height: 900px;
+  justify-content: center;
+  width: 33.333%;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+background-position: center center;
+
+  &:nth-child(2) {
+    margin: 0 3px;
+  }
+}
+
+.design-item__content {
+  align-self: center;
+  text-align: center;
+
+  img {
+    margin: 0 auto 25px;
+    display: block;
+  }
+
+  .design-item__name {
+    @include adaptiv-font(24, 18);
+    font-weight: 500;
+  }
+}

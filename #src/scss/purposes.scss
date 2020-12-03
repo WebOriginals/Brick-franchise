@@ -1,0 +1,36 @@
+.sec-purposes{
+  padding: 150px 0;
+  color: $color2;
+  background: right top no-repeat;
+  background-size: cover;
+}
+.purposes-title{
+  margin-bottom: 60px;
+}
+.purposes-description{
+  p{
+    @include adaptiv-font(18, 18);
+    margin-bottom: 10px;
+    font-weight: 400;
+  }
+  span{
+    color: $color3;
+    font-weight: 600;
+    @include adaptiv-font(24, 18);
+    margin-bottom: 30px;
+    display: block;
+    &:last-child{
+      margin-bottom: 0;
+    }
+  }
+
+}
+.purposes-director{
+  text-align: right;
+  position: absolute;
+  right: 0;
+  bottom: -90px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1.2;
+}

@@ -6,6 +6,7 @@
   img{
     width: 100%;
   }
+
 }
 .advantages-row{
   width: 100%;
@@ -21,6 +22,19 @@
       order: 1;
     }
   }
+
+  &:nth-child(odd){
+    .advantages-row__right img{
+      margin-left: -110px;
+    }
+  }
+
+  &:nth-child(even){
+    .advantages-row__right img{
+      margin-right: -110px;
+    }
+  }
+
 }
 .advantages-title{
   margin-bottom: 60px;

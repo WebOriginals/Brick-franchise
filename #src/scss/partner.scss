@@ -28,7 +28,9 @@
 }
 
 .wrapper-partnerForm__input {
+  margin-bottom: 30px;
   @include mq('desktop') {
+
     width: 50%;
     &:nth-child(odd) {
       padding-right: 30px;
