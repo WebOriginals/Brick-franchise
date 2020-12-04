@@ -94,3 +94,29 @@
     margin-bottom: 120px;
   }
 }
+.portfolio-slide{
+  background-size: cover;
+}
+
+@media only screen and (max-width:767px) {
+  .portfolio-description__data{
+    width: 280px;
+  }
+  .portfolio-row{
+    &:not(:last-child){
+      margin-bottom: 50px;
+    }
+  }
+  .height-sl{
+      height: 280px;
+    margin-bottom: 15px;
+  }
+  .row.portfolio-row:nth-child(2){
+    .col-md-5{
+      order:2 ;
+    }
+    .col-md-7{
+      order: 1;
+    }
+  }
+}

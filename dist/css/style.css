@@ -239,6 +239,10 @@ h6 {
   padding: 15px;
 }
 
+.content-right img {
+  margin-left: -70px;
+}
+
 .first-screen-titleImg img {
   width: 100%;
 }
@@ -254,7 +258,7 @@ h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 50%;
+  width: 70%;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-bottom: calc(30px + 30 * ((100vw - 320px) / 1600));
@@ -282,13 +286,15 @@ h6 {
 .specificationsButton {
   margin-top: 90px;
   margin-left: auto;
-  margin-right: 10%;
+  margin-right: auto;
 }
 
 .first-screenItems {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 100%;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -327,6 +333,7 @@ h6 {
 
 .first-screenTitle {
   margin-top: 80px;
+  padding: 0 15px;
 }
 
 .sec-business {
@@ -340,6 +347,8 @@ h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 100%;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -394,6 +403,7 @@ h6 {
 }
 
 .u {
+  display: block;
   background-size: cover;
   background-position: 0 0;
   background-repeat: no-repeat;
@@ -401,7 +411,6 @@ h6 {
   width: 100%;
   height: 100%;
   top: 0;
-  z-index: 1;
 }
 
 .partnerForm {
@@ -420,6 +429,7 @@ h6 {
 
 .wrapper-partnerForm__input {
   margin-bottom: 30px;
+  width: 100%;
 }
 
 .wrapper-partnerForm__input .partnerForm__input {
@@ -497,10 +507,12 @@ h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.company-content-img img {
+  width: 100%;
 }
 
 .sec-mission {
@@ -539,30 +551,16 @@ h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .advantages-row:not(:last-child) {
   margin-bottom: 120px;
 }
 
-.advantages-row:nth-child(odd) .advantages-row__left {
-  -webkit-box-ordinal-group: 3;
-      -ms-flex-order: 2;
-          order: 2;
-}
-
-.advantages-row:nth-child(odd) .advantages-row__right {
-  -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1;
-          order: 1;
-}
-
-.advantages-row:nth-child(odd) .advantages-row__right img {
-  margin-left: -110px;
-}
-
-.advantages-row:nth-child(even) .advantages-row__right img {
-  margin-right: -110px;
+.advantages-row .advantages-row__left {
+  padding-left: 30px;
 }
 
 .advantages-title {
@@ -675,6 +673,7 @@ h6 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-bottom: 30px;
 }
 
 .rates-item .bg-br {
@@ -688,7 +687,7 @@ h6 {
 
 .rates-item .rates-item__title {
   z-index: 2;
-  font-size: calc(18px + 18 * ((100vw - 320px) / 1600));
+  font-size: calc(28px + 8 * ((100vw - 320px) / 1600));
   margin-bottom: 45px;
   font-weight: 700;
   color: #0ebab9;
@@ -774,6 +773,8 @@ h6 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .ready-made-brand-item {
@@ -942,21 +943,18 @@ h6 {
 
 .design-item {
   color: #fff;
-  height: 900px;
+  height: 300px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 33.333%;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-}
-
-.design-item:nth-child(2) {
-  margin: 0 3px;
+  margin-bottom: 10px;
 }
 
 .design-item__content {
@@ -1089,6 +1087,10 @@ h6 {
   margin-bottom: 120px;
 }
 
+.portfolio-slide {
+  background-size: cover;
+}
+
 .sec-purposes {
   padding: 150px 0;
   color: #fff;
@@ -1213,6 +1215,42 @@ h6 {
   .body-form-calculator-height {
     height: 600px;
   }
+
+  .company-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .advantages-row:nth-child(odd) .advantages-row__left {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+
+  .advantages-row:nth-child(odd) .advantages-row__right {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+
+  .advantages-row:nth-child(odd) .advantages-row__right img {
+    margin-left: -110px;
+  }
+
+  .advantages-row:nth-child(even) .advantages-row__right img {
+    margin-right: -110px;
+  }
+
+  .design-item {
+    width: 33.333%;
+    height: 900px;
+  }
+
+  .design-item:nth-child(2) {
+    margin: 0 3px;
+  }
 }
 
 @media only screen and (min-width: 1151px) {
@@ -1328,23 +1366,30 @@ h6 {
 
   .content-left {
     width: 45%;
-    padding-top: 100px;
+    padding-top: 0;
   }
 
-  .content-right {
-    width: 55%;
+  .first-screen-p {
+    margin-bottom: 50px;
   }
 
-  .content-right img {
-    margin-left: -70px;
+  .specifications-item {
+    width: 50%;
   }
 
   .specifications-itemMargim {
     margin-left: 40%;
   }
 
+  .specificationsButton {
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: 10%;
+  }
+
   .first-screenTitle {
     margin-top: 170px;
+    padding: 0;
   }
 
   .wrapper-partnerForm__input {
@@ -1372,10 +1417,15 @@ h6 {
 
   .content-left {
     width: 50%;
+    padding-top: 100px;
   }
 
   .content-right {
     width: 50%;
+  }
+
+  .first-screen-p {
+    margin-bottom: 90px;
   }
 
   .specifications-item {
@@ -1532,9 +1582,9 @@ h6 {
   .menu {
     position: fixed;
     width: 100%;
-    height: 80%;
+    height: 95%;
     right: -100%;
-    top: 44px;
+    top: 66px;
     margin: 0;
     padding: 50px 0 40px;
     overflow-y: scroll;
@@ -1542,10 +1592,11 @@ h6 {
     -o-transition: all 1s ease-in-out;
     -webkit-transition: all 1s ease-in-out;
     z-index: 900;
+    background: #fff;
   }
 
   .menu.active {
-    right: -15%;
+    right: 0;
   }
 
   .link-menu {
@@ -1638,5 +1689,94 @@ h6 {
 
   .form-calculator__bottom-section .form-calculator__desctipt {
     text-align: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .content-right {
+    display: none;
+  }
+
+  .column-advantages {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    margin-bottom: 20px;
+  }
+
+  .pros {
+    padding-left: 30px;
+  }
+
+  .businessItem {
+    margin-bottom: 30px;
+  }
+
+  .u {
+    display: none;
+  }
+
+  .company-column {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    -ms-flex-item-align: center;
+        align-self: center;
+    padding-right: 10px;
+  }
+
+  .mb {
+    margin-bottom: 30px;
+  }
+
+  .wrapper-items {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .ready-made-brand-item {
+    margin-bottom: 30px;
+  }
+
+  .body-design {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .portfolio-description__data {
+    width: 280px;
+  }
+
+  .portfolio-row:not(:last-child) {
+    margin-bottom: 50px;
+  }
+
+  .height-sl {
+    height: 280px;
+    margin-bottom: 15px;
+  }
+
+  .row.portfolio-row:nth-child(2) .col-md-5 {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+
+  .row.portfolio-row:nth-child(2) .col-md-7 {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+}
+
+@media only screen and (min-width: 1350px) and (max-width: 1400px) {
+  .content-right {
+    width: 55%;
+  }
+
+  .content-right img {
+    margin-left: 24px;
+    width: 82%;
   }
 }

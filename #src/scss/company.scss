@@ -27,6 +27,12 @@
   &:nth-child(even){
     align-self: center;
   }
+  @media only screen and (max-width:767px) {
+      flex: 0 0 50%;
+      align-self:center;
+    padding-right: 10px;
+
+  }
 }
 .company-column__vertical{
   transform: rotate(-90deg);
@@ -34,5 +40,14 @@
 }
 .company-content{
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  @include mq('tablet-wide') {
+    flex-direction: column;
+  }
+}
+
+.company-content-img{
+    img{
+      width: 100%;
+    }
 }

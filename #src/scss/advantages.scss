@@ -11,30 +11,36 @@
 .advantages-row{
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   &:not(:last-child){
     margin-bottom: 120px;
   }
-  &:nth-child(odd){
-    .advantages-row__left{
-      order: 2;
+  .advantages-row__left {
+    padding-left: 30px;
+  }
+  @include mq('tablet-wide') {
+    &:nth-child(odd) {
+      .advantages-row__left {
+        order: 2;
+      }
+
+      .advantages-row__right {
+        order: 1;
+      }
     }
-    .advantages-row__right{
-      order: 1;
+
+    &:nth-child(odd) {
+      .advantages-row__right img {
+        margin-left: -110px;
+      }
+    }
+
+    &:nth-child(even) {
+      .advantages-row__right img {
+        margin-right: -110px;
+      }
     }
   }
-
-  &:nth-child(odd){
-    .advantages-row__right img{
-      margin-left: -110px;
-    }
-  }
-
-  &:nth-child(even){
-    .advantages-row__right img{
-      margin-right: -110px;
-    }
-  }
-
 }
 .advantages-title{
   margin-bottom: 60px;

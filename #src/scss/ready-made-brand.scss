@@ -8,6 +8,10 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  @media only screen and (max-width:767px) {
+    justify-content: center;
+  }
 }
 .ready-made-brand-item{
   border: 1px solid $color3;
@@ -21,6 +25,9 @@
     path{
       fill:$color2;
     }
+  }
+  @media only screen and (max-width:767px) {
+    margin-bottom: 30px;
   }
 }
 .ready-made-brand__ic{

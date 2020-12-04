@@ -24,27 +24,35 @@
   }
   @include mq('desktop') {
     width: 45%;
-    padding-top: 100px;
+    padding-top: 0;
   }
   @include mq('desktop-wide') {
     width: 50%;
+    padding-top: 100px;
   }
 
 }
 .content-right{
   width: 100%;
   padding: 15px;
+  @media only screen and (max-width:767px ){
+    display: none;
+  }
   @include mq('tablet-990') {
     width: 50%;
   }
-  @include mq('desktop') {
+  @media only screen and (min-width:1350px ) and (max-width: 1400px){
     width: 55%;
     img{
-      margin-left: -70px;
+      margin-left: 24px;
+      width: 82%;
     }
   }
   @include mq('desktop-wide') {
     width: 50%;
+  }
+  img{
+    margin-left: -70px;
   }
 }
 .first-screen-titleImg{
@@ -57,11 +65,20 @@
   @include adaptiv-font(27, 18);
   font-weight: 400;
   @include adaptiv-margin-bottom(90, 50);
+  @include mq('desktop') {
+   margin-bottom: 50px;
+  }
+  @include mq('desktop-wide') {
+    margin-bottom: 90px;
+  }
 }
 .specifications-item{
   display: flex;
-  width: 50%;
+  width: 70%;
   flex-wrap: wrap;
+  @include mq('desktop') {
+    width: 50%;
+  }
   @include mq('desktop-wide') {
     width: 44%;
   }
@@ -90,11 +107,17 @@
 .specificationsButton{
   margin-top: 90px;
   margin-left: auto;
-  margin-right: 10%;
+  margin-right: auto;
+  @include mq('desktop') {
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: 10%;
+  }
 }
 
 .first-screenItems{
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
   justify-content: space-between;
   margin-top: 60px;
@@ -114,10 +137,16 @@
   .column-advantagesIc{
     align-self: center;
   }
+  @media only screen and (max-width: 767px){
+    flex: 0 0 50%;
+    margin-bottom: 20px;
+  }
 }
 .first-screenTitle{
   margin-top: 80px;
+  padding: 0 15px;
   @include mq('desktop') {
     margin-top: 170px;
+    padding: 0 ;
   }
 }

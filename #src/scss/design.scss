@@ -10,21 +10,31 @@
 .body-design {
   display: flex;
   width: 100%;
+
+  @media only screen and (max-width:767px) {
+    flex-wrap: wrap;
+  }
 }
 
 .design-item {
   color: $color2;
-  height: 900px;
+  height: 300px;
   justify-content: center;
-  width: 33.333%;
+  width: 100%;
   display: flex;
   background-repeat: no-repeat;
   background-size: cover;
 background-position: center center;
-
-  &:nth-child(2) {
-    margin: 0 3px;
+  margin-bottom: 10px;
+  @include mq('tablet-wide') {
+    width: 33.333%;
+    height: 900px;
+    &:nth-child(2) {
+      margin: 0 3px;
+    }
   }
+
+
 }
 
 .design-item__content {
