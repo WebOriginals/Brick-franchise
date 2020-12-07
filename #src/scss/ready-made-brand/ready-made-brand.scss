@@ -3,6 +3,11 @@
   background: center center no-repeat;
   background-size: cover;
   padding: 25% 0 60px;
+  @media only screen and (max-width:767px) {
+    padding: 40px 0;
+    background: 42% 20% no-repeat;
+    background-size: cover;
+  }
 }
 .wrapper-items{
   width: 100%;
@@ -11,6 +16,7 @@
   flex-wrap: wrap;
   @media only screen and (max-width:767px) {
     justify-content: center;
+    display: none;
   }
 }
 .ready-made-brand-item{
@@ -35,6 +41,9 @@
 }
 .ready-made-brand-title{
   margin-bottom: 60px;
+  @media only screen and (max-width:767px) {
+    margin-bottom: 100px;
+  }
 }
 .ready-made-brand__text{
   @include adaptiv-font(18, 18);

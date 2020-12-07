@@ -1,11 +1,16 @@
 .sec-reviews{
   padding: 120px 0 60px;
+  @include maq('tablet-990') {
+    padding: 100px 0 50px;
+  }
 }
+
 .reviews-title{
   margin-bottom: 60px;
 }
 .wrapper-sliders{
   display: flex;
+  flex-wrap: wrap;
 }
 .body-reviews {
   position: relative;
@@ -14,6 +19,10 @@
   border-left: 5px solid $color3;
   padding: 0 0 0 30px;
   display: inline-block;
+  @include maq('tablet-990') {
+    width: 100%;
+    border: none;
+  }
 }
 .body-reviews-pagin{
   align-self: center;
@@ -28,6 +37,9 @@
       margin-bottom: 60px;
     }
   }
+  @include maq('tablet-990') {
+    width: 100%;
+  }
 }
 .reviews-container{
   width: 100%;
@@ -38,6 +50,9 @@
   background: 90% 5%;
   background-repeat: no-repeat;
   background-size: 40%;
+  @include maq('tablet-990') {
+    width: 100%;
+  }
 }
 .reviews-slide__data{
   display: flex;
@@ -83,10 +98,14 @@
   top: 50px ;
   right: 0;
   display: flex;
-
+  @include maq('tablet-990') {
+    top: 119px;
+    right: 33px;;
+  }
   .reviews-button-prev{
     margin-right: 30px;
   }
+
 }
 .reviews-pagin-container .reviews-pagin-slide.swiper-slide-thumb-active{
 

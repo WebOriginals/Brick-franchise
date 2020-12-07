@@ -1,5 +1,8 @@
 .sec-rates {
   padding: 120px 0;
+  @include maq('tablet') {
+    padding: 100px 0;
+  }
 }
 
 .rates-title {
@@ -17,7 +20,9 @@
   width: 100%;
   flex-wrap: wrap;
   margin-bottom: 30px;
-
+  @include maq('tablet') {
+    display: none;
+  }
 }
 
 .rates-item {
@@ -93,6 +98,10 @@
 .bold-text{
   @include adaptiv-font(24, 18);
   font-weight: 700;
+  margin-bottom: 10px;
+  span{
+    color: $color3;
+  }
 }
 .grey-text{
   @include adaptiv-font(18, 18);

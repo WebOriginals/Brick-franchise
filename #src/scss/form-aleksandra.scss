@@ -3,12 +3,22 @@
   color: $color2;
   background: center left ;
   background-size: cover;
+  @include maq('tablet') {
+    padding: 75px 0 80px;
+    background: 33% 14% ;
+    transform: scale(-1, 1);
+  }
 }
 .form-aleksandra-btn{
   margin-left: auto;
+
 }
 .form-aleksandra-title{
   margin-bottom: 30px;
+  @include maq('tablet') {
+    margin-bottom: 50px;
+    transform: scale(-1, 1);
+  }
 }
 .wrapper-form-aleksandra-inp{
   margin-bottom: 30px;
@@ -24,4 +34,7 @@
 }
 .forma{
   width: 100%;
+  @include maq('tablet') {
+    transform: scale(-1, 1);
+  }
 }

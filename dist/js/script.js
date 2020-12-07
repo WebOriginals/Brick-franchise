@@ -20,9 +20,18 @@ if(/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)){
 }
 var reviewsPagin = new Swiper('.reviews-pagin-container', {
     slidesPerView: 3,
-    direction: 'vertical',
+
     watchSlidesVisibility: true,
     watchSlidesProgress: true,
+    breakpoints: {
+        320: {
+            direction: 'horizontal',
+            spaceBetween: 20,
+        },
+        990: {
+            direction: 'vertical',
+        }
+    }
 });
 var reviewsDescription = new Swiper('.reviews-container', {
     navigation: {
@@ -37,15 +46,47 @@ var reviewsDescription = new Swiper('.reviews-container', {
 });
 
 
-var swiper = new Swiper('.portfolio-container', {
-    navigation: {
-        nextEl: '.portfolio-button-next',
-        prevEl: '.portfolio-button-prev',
-    },
+//var sliderWrapp = $( '.portfolio-container' ).closest( '.portfolio-row' );
+//var bodySlider = $( .portfolio-row' ).find( '.portfolio-container' );
+
+$( '.portfolio-container' ).each( function(){
+    new Swiper( this, {
+        navigation: {
+            nextEl: '.portfolio-button-next',
+            prevEl:  '.portfolio-button-prev' ,
+        },
+    });
 });
+
+
+
+
 var swiper = new Swiper('.business-container', {
     pagination: {
         el: '.business-pagination',
     },
     spaceBetween: 30,
+});
+var ratesSl = new Swiper('.rates-container', {
+    pagination: {
+        el: '.rates-pagination',
+    },
+    spaceBetween: 30,
+});
+var ratesSl_2 = new Swiper('.rates-container_2', {
+    pagination: {
+        el: '.rates-pagination_2',
+    },
+    spaceBetween: 30,
+});
+var swiper = new Swiper('.ready-made-brand-container', {
+    pagination: {
+        el: '.ready-made-brand-paginatio',
+    },
+    spaceBetween: 30,
+});
+var desigin = new Swiper('.design-container', {
+    pagination: {
+        el: '.design-pagination',
+    },
 });

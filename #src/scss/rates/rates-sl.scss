@@ -1,0 +1,16 @@
+.body-rates-itemsMobile{
+  position: relative;
+  padding: 0 15px 30px ;
+  margin-bottom: 30px;
+}
+
+.rates-container {
+  width: 100%;
+  height: 100%;
+}
+
+.body-rates-itemsMobile{
+  @include mq('tablet') {
+    display: none;
+  }
+}

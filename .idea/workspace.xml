@@ -20,22 +20,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="759871d2-881f-46f2-9c47-fe49e6590d70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/#src/js/bisiness-sl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#src/scss/bisiness/bisiness-sl.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/block/business.pug" beforeDir="false" afterPath="$PROJECT_DIR$/#src/block/business.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/#src/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#src/js/desigin-sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#src/js/rates-sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#src/js/ready-made-brand-sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#src/scss/design/design-sl.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#src/scss/rates/rates-sl.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#src/scss/ready-made-brand/ready-made-brand-sl.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/block/design.pug" beforeDir="false" afterPath="$PROJECT_DIR$/#src/block/design.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/block/portfolio.pug" beforeDir="false" afterPath="$PROJECT_DIR$/#src/block/portfolio.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/block/purposes.pug" beforeDir="false" afterPath="$PROJECT_DIR$/#src/block/purposes.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/block/rates.pug" beforeDir="false" afterPath="$PROJECT_DIR$/#src/block/rates.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/block/ready-made-brand.pug" beforeDir="false" afterPath="$PROJECT_DIR$/#src/block/ready-made-brand.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/img/alina.png" beforeDir="false" afterPath="$PROJECT_DIR$/#src/img/alina.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/js/portfolio-sl.js" beforeDir="false" afterPath="$PROJECT_DIR$/#src/js/portfolio-sl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/js/reviews-sl.js" beforeDir="false" afterPath="$PROJECT_DIR$/#src/js/reviews-sl.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/#src/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/#src/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/#src/scss/advantages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/advantages.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/scss/business.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/bisiness/business.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/scss/company.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/company.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/scss/design.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/design/design.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/#src/scss/fitst-screen.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/fitst-screen.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/scss/mission.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/mission.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/scss/form-aleksandra.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/form-aleksandra.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/scss/forma-button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/forma-button.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/#src/scss/origin_style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/origin_style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/scss/partner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/partner.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/scss/portfolio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/portfolio.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/scss/purposes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/purposes.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/scss/rates.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/rates/rates.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/scss/ready-made-brand.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/ready-made-brand/ready-made-brand.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/scss/reviews.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/reviews.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/#src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/alina.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/alina.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/js/script.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/script.min.js" afterDir="false" />
@@ -78,6 +93,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\lab\Brick-fransh\#src\scss\design" />
+      <recent name="C:\lab\Brick-fransh\#src\scss\ready-made-brand" />
+      <recent name="C:\lab\Brick-fransh\#src\scss\rates" />
       <recent name="C:\lab\Brick-fransh\#src\scss\bisiness" />
     </key>
   </component>
@@ -115,7 +133,17 @@
       <workItem from="1607327223681" duration="1669000" />
       <workItem from="1607329037829" duration="1752000" />
       <workItem from="1607330981210" duration="2111000" />
-      <workItem from="1607333161997" duration="1397000" />
+      <workItem from="1607333161997" duration="1670000" />
+      <workItem from="1607335012565" duration="1458000" />
+      <workItem from="1607336829481" duration="1685000" />
+      <workItem from="1607338643730" duration="1655000" />
+      <workItem from="1607340455392" duration="1367000" />
+      <workItem from="1607342326130" duration="1787000" />
+      <workItem from="1607344150293" duration="1644000" />
+      <workItem from="1607345970095" duration="1668000" />
+      <workItem from="1607347788406" duration="1482000" />
+      <workItem from="1607349604030" duration="1693000" />
+      <workItem from="1607351415538" duration="1339000" />
     </task>
     <servers />
   </component>

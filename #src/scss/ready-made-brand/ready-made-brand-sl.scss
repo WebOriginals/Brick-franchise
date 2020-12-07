@@ -1,0 +1,24 @@
+.wrapper-items_Mobile{
+  position: relative;
+  height: 100%;
+  @include mq('tablet-990') {
+    display: none;
+  }
+}
+
+.ready-made-brand-container {
+  width: 100%;
+  height: 100%;
+}
+
+.ready-made-brand-slide{
+  path{
+    fill: $color2;
+  }
+  .ready-made-brand-item{
+    background: $color3;
+  }
+}
+.ready-made-brand-paginatio{
+  justify-content: start;
+}

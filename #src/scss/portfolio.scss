@@ -1,5 +1,8 @@
 .sec-portfolio{
   padding: 60px 0 120px;
+  @media only screen and (max-width:767px) {
+    padding: 50px 0 50px;
+  }
 }
 .portfolioArrow{
   border-radius: 50%;
@@ -27,6 +30,9 @@
     top: 0;
     left: 5px;
     z-index: -1;
+    @media only screen and (max-width:767px) {
+      height: calc(100% - 30px );;
+    }
   }
 
   li{
@@ -65,9 +71,10 @@
   width: 140px;
   p{
     line-height: 1.5;
+    @include adaptiv-font(18, 16);
   }
   span{
-    @include adaptiv-font(42, 18);
+    @include adaptiv-font(42, 36);
     line-height: .8;
     font-weight: 500;
     margin-right: 10px;

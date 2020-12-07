@@ -3,7 +3,12 @@
   background: center right;
   background-repeat: no-repeat;
   background-size: 50%;
-
+  @include maq('tablet-990') {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 59% 85%;
+    padding: 50px 0 420px;
+  }
   p{
     margin-bottom: 50px;
   }

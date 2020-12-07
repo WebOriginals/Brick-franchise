@@ -2,3 +2,6 @@
 @@include('reviews-sl.js')
 @@include('portfolio-sl.js')
 @@include('bisiness-sl.js')
+@@include('rates-sl.js')
+@@include('ready-made-brand-sl.js')
+@@include('desigin-sl.js')

@@ -19,10 +19,13 @@
 @import "mission.scss";
 @import "advantages.scss";
 @import "form-aleksandra.scss";
-@import "rates.scss";
-@import "ready-made-brand.scss";
+@import "rates/rates.scss";
+@import "rates/rates-sl.scss";
+@import "ready-made-brand/ready-made-brand";
+@import "ready-made-brand/ready-made-brand-sl";
 @import "reviews.scss";
-@import "design.scss";
+@import "design/design";
+@import "design/design-sl";
 @import "portfolio.scss";
 @import "purposes.scss";
 @import "forma-button.scss";

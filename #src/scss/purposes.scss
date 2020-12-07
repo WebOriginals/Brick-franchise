@@ -1,31 +1,90 @@
-.sec-purposes{
+.sec-purposes {
   padding: 150px 0;
   color: $color2;
-  background: right top no-repeat;
-  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  @include maq('tablet-990') {
+    color: $color1;
+    padding: 50px 0;
+  }
+  @include mq('tablet-990') {
+    &:after {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(13, 40, 57, 0.5);
+
+    }
+  }
+
+
 }
-.purposes-title{
+
+.fon {
+display: none;
+  @include mq('tablet-990') {
+    display: block;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+
+  }
+}
+.alin-fon{
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+
+  .fonMob{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: -52px;
+  }
+  @include mq('tablet-990') {
+    display: none;
+  }
+}
+
+
+.purposes-title {
   margin-bottom: 60px;
+  z-index: 5;
+  position: relative;
 }
-.purposes-description{
-  p{
+
+.purposes-description {
+  z-index: 5;
+  position: relative;
+
+  p {
     @include adaptiv-font(18, 18);
     margin-bottom: 10px;
     font-weight: 400;
   }
-  span{
+
+  span {
     color: $color3;
     font-weight: 600;
     @include adaptiv-font(24, 18);
     margin-bottom: 30px;
     display: block;
-    &:last-child{
+
+    &:last-child {
       margin-bottom: 0;
     }
   }
 
 }
-.purposes-director{
+
+.purposes-director {
+  z-index: 2;
   text-align: right;
   position: absolute;
   right: 0;
@@ -33,4 +92,9 @@
   font-style: italic;
   font-weight: 500;
   line-height: 1.2;
+  @include maq('tablet-990') {
+   top: 44%;
+    right: 38px;
+    color: $color2;
+  }
 }
