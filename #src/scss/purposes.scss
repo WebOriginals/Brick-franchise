@@ -29,10 +29,13 @@ display: none;
     display: block;
     position: absolute;
     top: 0;
+    right: 0;
     height: 100%;
     object-fit: cover;
     object-position: center center;
-
+  }
+  @include mq('desktop-wide') {
+    height: 120%;
   }
 }
 .alin-fon{
@@ -87,8 +90,8 @@ display: none;
   z-index: 2;
   text-align: right;
   position: absolute;
-  right: 0;
-  bottom: -90px;
+  right: 20%;
+  bottom: 42px;
   font-style: italic;
   font-weight: 500;
   line-height: 1.2;
