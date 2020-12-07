@@ -25,4 +25,7 @@
 }
 .feedback__button{
   margin-left: auto;
+  @include maq('tablet-990') {
+    width: 100%;
+  }
 }
