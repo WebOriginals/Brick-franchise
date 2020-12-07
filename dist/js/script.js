@@ -43,3 +43,9 @@ var swiper = new Swiper('.portfolio-container', {
         prevEl: '.portfolio-button-prev',
     },
 });
+var swiper = new Swiper('.business-container', {
+    pagination: {
+        el: '.business-pagination',
+    },
+    spaceBetween: 30,
+});

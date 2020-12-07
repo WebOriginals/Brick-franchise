@@ -3,10 +3,19 @@
   color: $color2;
   background: center center no-repeat;
   background-size: cover;
+  @include maq('tablet') {
+    padding: 40px 0  70px;
+    background: 71% 37% no-repeat;
+    background-size: cover;
+  }
   p{
     @include adaptiv-font(24, 18);
     margin-bottom: 30px;
     font-weight: 500;
+    @include maq('tablet') {
+      width: 60%;
+    }
+
   }
 }
 .p-turquoise{
@@ -16,4 +25,9 @@
 }
 .mission-title{
   margin-bottom: 50px;
+}
+.mission-title{
+  @include maq('tablet') {
+    margin-bottom: 60px;
+  }
 }

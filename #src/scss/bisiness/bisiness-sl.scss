@@ -1,0 +1,15 @@
+.wraper-businessItemsMobile{
+  position: relative;
+  @include mq('tablet-wide') {
+    display: none;
+  }
+}
+
+.business-container {
+  width: 100%;
+  height: 100%;
+}
+
+.business-slide {
+
+}

@@ -1,8 +1,10 @@
 .sec-partner {
   background: #F2F5F8 !important;
-  padding: 120px 0;
+  padding: 80px 0;
   position: relative;
-
+  @include mq('desktop') {
+    padding: 120px 0;
+  }
 }
 .partnerTitle{
   z-index: 9 !important;
@@ -61,5 +63,11 @@
   a {
     text-decoration: underline;
     color: #A6A6A6;
+  }
+}
+
+.partnerBtn{
+  @include maq('tablet') {
+    width: 100%;
   }
 }

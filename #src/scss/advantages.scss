@@ -1,5 +1,8 @@
 .sec-advantages{
   padding: 120px 0;
+  @include maq('tablet') {
+    padding: 100px 0 0;
+  }
 }
 .advantages-row__right{
 
@@ -62,5 +65,15 @@
       color: $color1;
       @include adaptiv-font(18, 18);
     }
+  }
+}
+@include maq('tablet') {
+  .advantages-row__left {
+    order: 2;
+
+  }
+  .advantages-row__right {
+    order: 1;
+  margin-bottom: 40px;
   }
 }
