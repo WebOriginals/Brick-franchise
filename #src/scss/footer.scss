@@ -1,0 +1,43 @@
+.footer{
+  padding: 20px;
+  background: #0D2839;
+  color: $color2;
+  @include adaptiv-font(16, 14);
+  a{
+    color: $color2;
+    text-decoration: none;
+    @include adaptiv-font(16, 14);
+  }
+  p{
+    margin-bottom: 0;
+  }
+
+}
+.body-footer{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  @include mq('desktop-wide') {
+    flex-direction: row;
+  }
+}
+.footer-logo,
+.footer-address,
+.footer-phone,
+.footer-email,
+.footer-soc,
+.footer-copor,
+.footer-lab{
+  align-self: center;
+  @include maq('tablet') {
+    margin-bottom: 15px;
+  }
+}
+
+.footer-logo{
+  width: 100px;
+  img{
+    width: 100%;
+  }
+}

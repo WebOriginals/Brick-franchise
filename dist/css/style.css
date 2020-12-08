@@ -1160,6 +1160,48 @@ h6 {
   margin-left: auto;
 }
 
+.footer {
+  padding: 20px;
+  background: #0D2839;
+  color: #fff;
+  font-size: calc(14px + 2 * ((100vw - 320px) / 1600));
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  font-size: calc(14px + 2 * ((100vw - 320px) / 1600));
+}
+
+.footer p {
+  margin-bottom: 0;
+}
+
+.body-footer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-logo,
+.footer-address,
+.footer-phone,
+.footer-email,
+.footer-soc,
+.footer-copor,
+.footer-lab {
+  align-self: center;
+}
+
+.footer-logo {
+  width: 100px;
+}
+
+.footer-logo img {
+  width: 100%;
+}
+
 @media only screen and (min-width: 768px) {
   .body-rates-itemsMobile {
     display: none;
@@ -1463,6 +1505,10 @@ h6 {
 
   .fon {
     height: 120%;
+  }
+
+  .body-footer {
+    flex-direction: row;
   }
 }
 
@@ -1918,6 +1964,16 @@ h6 {
 
   .row.portfolio-row:nth-child(2) .col-md-7 {
     order: 1;
+  }
+
+  .footer-logo,
+  .footer-address,
+  .footer-phone,
+  .footer-email,
+  .footer-soc,
+  .footer-copor,
+  .footer-lab {
+    margin-bottom: 15px;
   }
 }
 
